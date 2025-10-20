@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  // Remove static export for Supabase integration
+  // output: 'export',
   trailingSlash: true,
   images: {
     unoptimized: true,
